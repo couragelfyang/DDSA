@@ -92,7 +92,7 @@ if __name__ == "__main__":
     # Required parameters
     parser.add_argument("--data_dir", default='data/mwz2.4', type=str)
     parser.add_argument("--pretrained_model", default='bert-base-uncased', type=str)
-    parser.add_argument("--save_dir", default='out-bert/7615', type=str)
+    parser.add_argument("--save_dir", default='out-bert/7558', type=str)
     parser.add_argument("--attn_type", default='softmax', type=str)
     parser.add_argument("--dropout_prob", default=0.1, type=float)
 
