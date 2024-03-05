@@ -263,10 +263,10 @@ if __name__ == "__main__":
 
     parser.add_argument("--random_seed", default=42, type=int)
     parser.add_argument("--num_workers", default=4, type=int)
-    parser.add_argument("--train_batch_size", default=4, type=int)
+    parser.add_argument("--train_batch_size", default=8, type=int)
     parser.add_argument("--enc_warmup", default=0.1, type=float)
     parser.add_argument("--dec_warmup", default=0.1, type=float)
-    parser.add_argument("--enc_lr", default=1e-5, type=float)
+    parser.add_argument("--enc_lr", default=4e-5, type=float)
     parser.add_argument("--dec_lr", default=1e-4, type=float)
     parser.add_argument("--n_epochs", default=30, type=int)
     parser.add_argument("--eval_epoch", default=1, type=int)
@@ -284,8 +284,6 @@ if __name__ == "__main__":
     parser.add_argument("--num_history", default=20, type=int)
     parser.add_argument("--distance_metric", default="euclidean", type=str,
                         help="euclidean or cosine")
-    
-    parser.add_argument("--num_self_attention_layer", default=6, type=int)
     
     args = parser.parse_args()
     
