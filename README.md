@@ -3,6 +3,7 @@ This is the implementation of [Multi-Domain Dialogue State Tracking with Disenta
 
 ### Usage
 The preprocessing and postprocessing are consistent with [STAR](https://github.com/smartyfh/DST-STAR)
+
 The checkpoint can be downloaded via [here](https://drive.google.com/file/d/1IpMTXR4l3nCNnNPiMmQJRufoDEbexCi8/view?usp=drive_link)
 
 ### Citation
